@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'home_screen.dart';
+import 'home_screen_five.dart';
+import 'home_screen_four.dart';
+import 'home_screen_six.dart';
 import 'home_second.dart';
+import 'home_three.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomeSecond(),
+      home: HomeScreenSix(),
     );
   }
 }
